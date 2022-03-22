@@ -13,8 +13,8 @@
 :root {
     /* Hide Notion Header (Page title, icon and cover) */
     --notion-header-display: none;
-  
-    --landing-background: #f6f6f6
+    --landing-background: #f6f6f6;
+    --max-width: 100%;
   }
   body {
     -webkit-font-smoothing: antialiased;
