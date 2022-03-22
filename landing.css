@@ -14,60 +14,37 @@
     /* Hide Notion Header (Page title, icon and cover) */
     --notion-header-display: none;
   
-    /* Top Spacing (If you remove the Notion header, change to '20px' or more) */
-    --top-spacing: 0px;
-  
-    /* Super Navbar CTA Button */
-    --cta-padding: 14px 16px!important;
-    --cta-border-radius: 5px!important;
-    --cta-border: none!important;
-    --cta-shadow: none!important;
-  
-    /* Callouts */
-    --callout-padding: 16px 16px 16px 12px!important;
-    --callout-margin: 2px 0px 4px 0px!important;
-    --callout-border-radius: 10px!important;
-  
-    /* Typography */
-    /* heading 1 block font size and weight */
-    --h1-size: 1.875rem!important;
-    --h1-weight: 700!important;
-  
-    /* heading 2 block font size and weight */
-    --h2-size: 1.5rem!important;
-    --h2-weight: 600!important;
-  
-    /* heading 3 block font size and weight */
-    --h3-size: 1.25rem!important;
-    --h3-weight: 700!important;
+    --landing-background: #f6f6f6
   }
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    height: 100%!important;
+    height: 100% !important;
   }
   
   html {
     font-size: calc(12 - 1vw) !important; /* Responsive HTML font size */
   }
   
-  .super-content {
-    margin: 0;
-    padding: 0 !important;
-  }
-
   .notion-root {
-      background-color: #f6f6f6;
+    background-color: var(--landing-background);
   }
-
+  
   .notion-root > .notion-text {
     background-color: inherit;
   }
   
+  /* Max Width */
+  
+  .max-width {
+    max-width: var(--max-width) !important;
+    padding: 0;
+  }
+  
   /** --- CUSTOM CLASSES --- **/
   .sticky {
-    background-color: transparent!important;
+    background-color: transparent !important;
   }
   
   .hidden {
@@ -83,31 +60,27 @@
   }
   
   /** --- NOTION NAVBAR --- **/
+  .notion-header {
+    display: var(--notion-header-display) !important;
+  }
+  
   .notion-navbar {
     position: fixed; /* Sticky nav-bar */
-    background-color: #f6f6f6;
+    background-color: var(--landing-background);
   }
   
   .notion-breadcrumb {
     background-color: transparent;
   }
-
+  
   /** --- HEADING  --- **/
   h1.notion-heading {
     position: fixed;
     top: 20%;
     left: 20%;
   }
-
-  h2.notion-heading + .notion-text {
-    display: none;
-  }
   
   /** --- PARALLAX BACKGROUND  --- **/
-  .notion-image {
-    margin: 0;
-  }
-  
   .notion-root > .notion-image {
     min-height: 100vh;
     max-height: none;
@@ -125,20 +98,17 @@
   }
   
   .notion-root > .notion-image > div > img {
-    display: none !important;
+    display: none;
   }
-
+  
   /** --- COLUMN LIST --- **/
   .notion-column-list {
     padding: 10px 15%;
     background-color: inherit;
   }
   
-/** --- CALLOUT --- **/
-.notion-callout {
-    margin: 0!important;
-}
-
-/** --- EMBED --- **/
-.notion-embed {
-}
+  /** --- CALLOUT --- **/
+  .notion-callout.border {
+    border: none;
+  }
+  
