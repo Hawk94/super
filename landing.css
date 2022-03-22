@@ -1,0 +1,144 @@
+/*****************************************************************************/
+/**                                                                         **/
+/**                                LANDING                                  **/
+/**                                                                         **/
+/**            Landing is a all-in-one landing page template for            **/
+/**                        Notion powered by Super                          **/
+/**                                                                         **/
+/**                   ->  miller.mx/templates/landing  <-                   **/
+/**                                                                         **/
+/*****************************************************************************/
+
+/** --- ROOT --- **/
+:root {
+    /* Hide Notion Header (Page title, icon and cover) */
+    --notion-header-display: none;
+  
+    /* Top Spacing (If you remove the Notion header, change to '20px' or more) */
+    --top-spacing: 0px;
+  
+    /* Super Navbar CTA Button */
+    --cta-padding: 14px 16px!important;
+    --cta-border-radius: 5px!important;
+    --cta-border: none!important;
+    --cta-shadow: none!important;
+  
+    /* Callouts */
+    --callout-padding: 16px 16px 16px 12px!important;
+    --callout-margin: 2px 0px 4px 0px!important;
+    --callout-border-radius: 10px!important;
+  
+    /* Typography */
+    /* heading 1 block font size and weight */
+    --h1-size: 1.875rem!important;
+    --h1-weight: 700!important;
+  
+    /* heading 2 block font size and weight */
+    --h2-size: 1.5rem!important;
+    --h2-weight: 600!important;
+  
+    /* heading 3 block font size and weight */
+    --h3-size: 1.25rem!important;
+    --h3-weight: 700!important;
+  }
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    height: 100%!important;
+  }
+  
+  html {
+    font-size: calc(12 - 1vw) !important; /* Responsive HTML font size */
+  }
+  
+  .super-content {
+    margin: 0;
+    padding: 0 !important;
+  }
+
+  .notion-root {
+      background-color: #f6f6f6;
+  }
+
+  .notion-root > .notion-text {
+    background-color: inherit;
+  }
+  
+  /** --- CUSTOM CLASSES --- **/
+  .sticky {
+    background-color: transparent!important;
+  }
+  
+  .hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 1s linear;
+  }
+  
+  .visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s linear;
+  }
+  
+  /** --- NOTION NAVBAR --- **/
+  .notion-navbar {
+    position: fixed; /* Sticky nav-bar */
+    background-color: #f6f6f6;
+  }
+  
+  .notion-breadcrumb {
+    background-color: transparent;
+  }
+
+  /** --- HEADING  --- **/
+  h1.notion-heading {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+  }
+
+  h2.notion-heading + .notion-text {
+    display: none;
+  }
+  
+  /** --- PARALLAX BACKGROUND  --- **/
+  .notion-image {
+    margin: 0;
+  }
+  
+  .notion-root > .notion-image {
+    min-height: 100vh;
+    max-height: none;
+    margin: 0;
+    position: relative;
+    opacity: 0.95;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .notion-root > .notion-image > picture {
+    display: none;
+  }
+  
+  .notion-root > .notion-image > div > img {
+    display: none !important;
+  }
+
+  /** --- COLUMN LIST --- **/
+  .notion-column-list {
+    padding: 10px 15%;
+    background-color: inherit;
+  }
+  
+/** --- CALLOUT --- **/
+.notion-callout {
+    margin: 0!important;
+}
+
+/** --- EMBED --- **/
+.notion-embed {
+}
