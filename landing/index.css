@@ -39,7 +39,7 @@
   
   .max-width {
     max-width: var(--max-width) !important;
-    padding: 0;
+    padding: 0!important;
   }
   
   /** --- CUSTOM CLASSES --- **/
