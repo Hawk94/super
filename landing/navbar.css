@@ -23,7 +23,7 @@
 
 .notion-breadcrumb {
   height: 100%;
-  top: unset;
+  top: unset!important;
 }
 
 .notion-breadcrumb__item {
