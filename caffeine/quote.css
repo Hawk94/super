@@ -32,6 +32,8 @@
 }
 
 .notion-quote {
+    box-shadow: none!important;
+    background-color: white!important;
     border-radius: 12px !important;
     text-align: left !important;
     padding: 50px !important;
