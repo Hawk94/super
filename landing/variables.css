@@ -11,6 +11,7 @@
   --column-spacing: 80px !important;
   --max-width: 100%;
   --top-spacing: 0px;
+  --transition: all .2s ease-in-out !important;
 
   --caffeine-cta-background: rgb(51, 51, 51);
   --caffeine-font: "Roboto";
