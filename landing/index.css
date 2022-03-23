@@ -110,6 +110,11 @@ h1.notion-heading {
   border: none;
 }
 
+/*--------- EMBED ---------*/
+.notion-embed__container>iframe {
+  background-color: inherit;
+}
+
 /*--------- TYPOGRAPHY ---------*/
 h1 {
   font-family: var(--landing-font);

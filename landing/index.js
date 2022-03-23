@@ -34,7 +34,8 @@ function updateHeaderVisibility() {
   const header = document.querySelector("h1.notion-heading");
   const headerVisibility = window.innerHeight / 2;
   const yOffset = window.pageYOffset;
-  header.style.opacity = Math.min(1 - yOffset / headerVisibility, 1);
+  const opacity = 1 / Math.pow(5, yOffset / headerVisibility);
+  header.style.opacity = opacity < 0.15 ? 0 : opacity;
 }
 
 // Update navbar/header classes on scroll.
