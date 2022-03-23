@@ -1,0 +1,18 @@
+:root {
+  --color-text-default: #000 !important;
+  --color-text-gray: #8f9ba8 !important;
+  --color-text-default-light: #8f9ba8 !important;
+  --color-bg-default: #f9fafe !important;
+  --color-white: #fff !important;
+  --color-dividers: #edeef3 !important;
+  --navbar-height: 44px !important;
+  --column-spacing: 80px !important;
+  --transition: all 0.2s ease-in-out !important;
+  /* Hide Notion Header (Page title, icon and cover) */
+  --notion-header-display: none;
+  --landing-background: #f6f6f6;
+  --landing-font: "Roboto";
+  --max-width: 100%;
+  --top-spacing: 0px;
+  --color-bg-default: var(--landing-background);
+}

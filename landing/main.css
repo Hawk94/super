@@ -1,0 +1,85 @@
+.super-content {
+    background-color: var(--landing-background);
+    padding-top: var(--top-spacing) !important;
+    padding-bottom: 10vh !important;
+  }
+  
+  .notion-root {
+    background-color: inherit;
+  }
+  
+  .notion-root > .notion-text {
+    background-color: inherit;
+  }
+  
+  /** --- MAX WIDTH --- **/
+  .max-width {
+    max-width: var(--max-width) !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  /** --- CUSTOM CLASSES --- **/
+  .sticky {
+    position: fixed !important;
+    background-color: transparent !important;
+  }
+  
+  .fixed {
+    position: fixed !important; /* Sticky nav-bar */
+    background-color: var(--landing-background) !important;
+  }
+  
+  /** --- NOTION NAVBAR --- **/
+  .notion-header {
+    display: var(--notion-header-display) !important;
+  }
+  
+  .notion-breadcrumb {
+    display: var(--notion-header-display) !important;
+  }
+  
+  /** --- HEADING  --- **/
+  h1.notion-heading {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+  }
+  
+  /** --- PARALLAX BACKGROUND  --- **/
+  .notion-root > .notion-image {
+    min-height: 100vh;
+    max-height: none;
+    margin: 0;
+    position: relative;
+    opacity: 0.95;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .notion-root > .notion-image > picture {
+    display: none;
+  }
+  
+  .notion-root > .notion-image > div > img {
+    display: none;
+  }
+  
+  /** --- COLUMN LIST --- **/
+  .notion-column-list {
+    padding: 50px 15%;
+    background-color: inherit;
+  }
+  
+  /** --- CALLOUT --- **/
+  .notion-callout.border {
+    border: none;
+  }
+  
+  /*--------- EMBED ---------*/
+  .notion-embed__container > iframe {
+    background-color: inherit !important;
+  }
+  
