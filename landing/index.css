@@ -14,6 +14,7 @@
   /* Hide Notion Header (Page title, icon and cover) */
   --notion-header-display: none;
   --landing-background: #f6f6f6;
+  --landing-font: "Roboto";
   --max-width: 100%;
   --top-spacing: 0px;
   --color-bg-default: var(--landing-background);
@@ -43,7 +44,7 @@ html {
   background-color: inherit;
 }
 
-/* Max Width */
+/** --- MAX WIDTH --- **/
 .max-width {
   max-width: var(--max-width) !important;
   padding-left: 0 !important;
@@ -52,25 +53,13 @@ html {
 
 /** --- CUSTOM CLASSES --- **/
 .sticky {
-  position: fixed!important;
+  position: fixed !important;
   background-color: transparent !important;
 }
 
 .fixed {
-  position: fixed!important; /* Sticky nav-bar */
-  background-color: var(--landing-background)!important;
-}
-
-.hidden {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s 2s, opacity 1s linear;
-}
-
-.visible {
-  visibility: visible;
-  opacity: 1;
-  transition: opacity 1s linear;
+  position: fixed !important; /* Sticky nav-bar */
+  background-color: var(--landing-background) !important;
 }
 
 /** --- NOTION NAVBAR --- **/
@@ -119,4 +108,32 @@ h1.notion-heading {
 /** --- CALLOUT --- **/
 .notion-callout.border {
   border: none;
+}
+
+/*--------- TYPOGRAPHY ---------*/
+h1 {
+  font-family: var(--landing-font);
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 48px !important;
+}
+h2 {
+  font-family: var(--landing-font);
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 32px !important;
+  letter-spacing: -0.04em !important;
+}
+h3 {
+  font-family: var(--landing-font);
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 24px !important;
+}
+p {
+  font-family: var(--landing-font);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  padding: 0px !important;
 }

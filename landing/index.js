@@ -32,16 +32,9 @@ function updateStickyNavbar() {
 // Make the header fade out once the user has scrolled beyond 50% of original viewport height.
 function updateHeaderVisibility() {
   const header = document.querySelector("h1.notion-heading");
-  const headerVisibility = window.innerHeight / 2 - 25;
+  const headerVisibility = window.innerHeight / 2;
   const yOffset = window.pageYOffset;
-
-  if (yOffset > headerVisibility) {
-    header.classList.remove("visible");
-    header.classList.add("hidden");
-  } else {
-    header.classList.remove("hidden");
-    header.classList.add("visible");
-  }
+  header.style.opacity = Math.min(1 - yOffset / headerVisibility, 1);
 }
 
 // Update navbar/header classes on scroll.
