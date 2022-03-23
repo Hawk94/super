@@ -73,7 +73,7 @@ html {
 }
 
 .notion-navbar {
-  position: fixed; /* Sticky nav-bar */
+  position: fixed!important; /* Sticky nav-bar */
   background-color: var(--landing-background);
 }
 
