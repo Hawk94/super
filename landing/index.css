@@ -56,6 +56,11 @@ html {
   background-color: transparent !important;
 }
 
+.fixed {
+  position: fixed; /* Sticky nav-bar */
+  background-color: var(--landing-background);
+}
+
 .hidden {
   visibility: hidden;
   opacity: 0;
@@ -71,11 +76,6 @@ html {
 /** --- NOTION NAVBAR --- **/
 .notion-header {
   display: var(--notion-header-display) !important;
-}
-
-.notion-navbar {
-  position: fixed; /* Sticky nav-bar */
-  background-color: var(--landing-background);
 }
 
 .notion-breadcrumb {

@@ -21,8 +21,10 @@ function updateStickyNavbar() {
   const yOffset = window.pageYOffset;
 
   if (yOffset > innerHeight) {
+    navbar.classList.add("fixed");
     navbar.classList.remove("sticky");
   } else {
+    navbar.classList.remove("fixed");
     navbar.classList.add("sticky");
   }
 }
