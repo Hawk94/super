@@ -1,0 +1,31 @@
+/** --- CUSTOM CLASSES --- **/
+.sticky {
+  position: fixed !important;
+  background-color: transparent !important;
+}
+
+.fixed {
+  position: fixed !important; /* Sticky nav-bar */
+  background-color: var(--caffeine-background-color) !important;
+}
+
+/** --- PARALLAX BACKGROUND  --- **/
+.notion-root > .notion-image {
+  min-height: 100vh;
+  max-height: none;
+  margin: 0;
+  position: relative;
+  opacity: 0.95;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.notion-root > .notion-image > picture {
+  display: none;
+}
+
+.notion-root > .notion-image > div > img {
+  display: none;
+}

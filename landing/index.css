@@ -9,11 +9,5 @@
 /**                                                                         **/
 /*****************************************************************************/
 
-@import "code.css";
 @import "main.css";
-@import "navbar.css";
-@import "quote.css";
-@import "reset.css";
-@import "toggle.css";
-@import "typography.css";
-@import "variables.css";
+@import "parallax.css";
