@@ -32,7 +32,7 @@ ul,
 ol,
 li,
 a {
-  font-family: var(--landing-font);
+  font-family: var(--landing-font)!important;
   font-style: normal;
   padding: 0;
   margin: 0;
