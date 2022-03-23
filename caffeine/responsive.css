@@ -1,0 +1,22 @@
+@media (max-width: 900px) {
+  .notion-quote.bg-gray {
+    display: none !important;
+  }
+
+  .notion-quote {
+    font-size: 20px !important;
+    padding: 30px !important;
+  }
+
+  .notion-navbar {
+    justify-content: center !important;
+  }
+
+  .notion-navbar__title {
+    margin: 0 !important;
+  }
+}
+
+* {
+  text-align: center !important;
+}

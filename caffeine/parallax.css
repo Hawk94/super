@@ -1,3 +1,14 @@
+.notion-header {
+  display: none !important;
+}
+
+/** --- MAX WIDTH --- **/
+.max-width {
+  max-width: var(--max-width) !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 /** --- CUSTOM CLASSES --- **/
 .sticky {
   position: fixed !important;
