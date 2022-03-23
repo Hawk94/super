@@ -1,5 +1,4 @@
 .notion-navbar {
-    background: transparent !important;
     height: var(--navbar-height) !important;
 }
 
@@ -17,7 +16,12 @@
 }
 
 .notion-navbar__title {
+    font-size: 18px !important;
     overflow: visible !important;
+}
+
+.notion-breadcrumb {
+    height: 100%;
 }
 
 .notion-breadcrumb__item {

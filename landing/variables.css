@@ -5,12 +5,16 @@
   --color-bg-default: #f9fafe !important;
   --color-white: #fff !important;
   --color-dividers: #edeef3 !important;
-  --navbar-height: 44px !important;
+  --color-bg-default: var(--landing-background);
+
+  --navbar-height: 64px !important;
   --column-spacing: 80px !important;
-  --transition: all 0.2s ease-in-out !important;
-  --landing-background: #f6f6f6;
-  --landing-font: "Roboto";
   --max-width: 100%;
   --top-spacing: 0px;
-  --color-bg-default: var(--landing-background);
+
+  --caffeine-cta-background: rgb(51, 51, 51);
+  --caffeine-font: "Roboto";
+  --caffeine-background-color: var(--color-bg-default);
+  --caffeine-header-top: 20%;
+  --caffeine-header-left: 10%;
 }
