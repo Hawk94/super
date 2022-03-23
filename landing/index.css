@@ -74,7 +74,7 @@ html {
 
 .notion-navbar {
   position: fixed!important; /* Sticky nav-bar */
-  background-color: var(--landing-background);
+  background-color: var(--landing-background)!important;
 }
 
 .notion-breadcrumb {
