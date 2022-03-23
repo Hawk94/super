@@ -30,6 +30,10 @@
     background-color: var(--landing-background) !important;
   }
   
+  .notion-header {
+    display: none !important;
+  }
+  
   /** --- HEADING  --- **/
   h1.notion-heading {
     position: fixed;
