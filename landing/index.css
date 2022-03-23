@@ -111,8 +111,8 @@ h1.notion-heading {
 }
 
 /*--------- EMBED ---------*/
-.notion-embed__container>iframe {
-  background-color: inherit;
+.notion-embed__container > iframe {
+  background-color: inherit !important;
 }
 
 /*--------- TYPOGRAPHY ---------*/
