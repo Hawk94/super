@@ -8,6 +8,6 @@
     text-align: left!important;
 }
 
-notion-code {
+.notion-code > pre {
     text-align: left!important;
 }
