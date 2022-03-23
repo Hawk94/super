@@ -33,6 +33,10 @@ a {
     opacity: 1 !important;
 }
 
+.notion-semantic-string .link:hover {
+    color: var(--color-white) !important;
+}
+
 @media (max-width: 900px) {
 
     h1 {
