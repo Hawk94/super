@@ -8,8 +8,6 @@
   --navbar-height: 44px !important;
   --column-spacing: 80px !important;
   --transition: all 0.2s ease-in-out !important;
-  /* Hide Notion Header (Page title, icon and cover) */
-  --notion-header-display: none;
   --landing-background: #f6f6f6;
   --landing-font: "Roboto";
   --max-width: 100%;

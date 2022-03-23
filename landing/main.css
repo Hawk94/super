@@ -30,15 +30,6 @@
     background-color: var(--landing-background) !important;
   }
   
-  /** --- NOTION NAVBAR --- **/
-  .notion-header {
-    display: var(--notion-header-display) !important;
-  }
-  
-  .notion-breadcrumb {
-    display: var(--notion-header-display) !important;
-  }
-  
   /** --- HEADING  --- **/
   h1.notion-heading {
     position: fixed;
