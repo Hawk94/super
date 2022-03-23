@@ -16,6 +16,7 @@
   --landing-background: #f6f6f6;
   --max-width: 100%;
   --top-spacing: 0px;
+  --color-bg-default: var(--landing-background);
 }
 body {
   -webkit-font-smoothing: antialiased;
@@ -43,7 +44,6 @@ html {
 }
 
 /* Max Width */
-
 .max-width {
   max-width: var(--max-width) !important;
   padding-left: 0 !important;
@@ -52,6 +52,7 @@ html {
 
 /** --- CUSTOM CLASSES --- **/
 .sticky {
+  position: fixed!important;
   background-color: transparent !important;
 }
 
