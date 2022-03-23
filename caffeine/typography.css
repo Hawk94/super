@@ -33,7 +33,7 @@ a {
     opacity: 1 !important;
 }
 
-.notion-semantic-string .link:hover {
+.notion-quote.bg-gray .notion-semantic-string .link:hover {
     color: var(--color-white) !important;
 }
 

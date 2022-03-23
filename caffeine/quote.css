@@ -31,10 +31,6 @@
     line-height: 1 !important;
 }
 
-.notion-link:hover {
-    color: white!important;
-}
-
 .notion-quote {
     border-radius: 12px !important;
     text-align: left !important;
