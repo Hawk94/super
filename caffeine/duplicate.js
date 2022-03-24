@@ -26,7 +26,7 @@ function verifyPurchase() {
     });
 }
 
-document.onload = () => {
+window.onload = () => {
   const h1 = document.querySelector(".notion-header__title");
   if (h1) {
     h1.innerHTML = "Checking purchase history...";
